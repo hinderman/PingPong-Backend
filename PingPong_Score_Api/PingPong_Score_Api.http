@@ -1,0 +1,6 @@
+@PingPong_Score_Api_HostAddress = http://localhost:5031
+
+GET {{PingPong_Score_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
