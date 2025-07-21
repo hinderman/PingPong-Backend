@@ -56,7 +56,7 @@ El backend está dividido en carpetas por servicio, manteniendo una clara separa
 
 ## Funcionalidades Clave Implementadas
 - **Gestión de usuarios: registro seguro con contraseña hasheada (sal + hash).**
-- **Sistema de autenticación y autorización (JWT, si aplica).**
+- **Sistema de autenticación y autorización (JWT).**
 - **Gestión de salas de juego en MongoDB.**
 - **Gestión de sesiones y estado de conexión.**
 - **Registro de partidas y puntajes por usuario (PostgreSQL).**
@@ -149,8 +149,7 @@ dotnet run --project PingPong_{Nombre_servicio}_Api
 se deben agregar todas las capas API de los diferentes servicios por funcionamiento del api gateway
 
 ### Pruebas
-Se incluyen pruebas unitarias en la capa de dominio (si aplica).
-Para ejecutarlas:
+Ejecución de pruebas unitarias:
 ```
 dotnet test
 ```
