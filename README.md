@@ -63,12 +63,12 @@ CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 
 -- Crear tabla de usuarios
 CREATE TABLE users (
-    id 			UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    email 		VARCHAR(50) NOT NULL UNIQUE,
-    nickname	VARCHAR(50) NOT NULL UNIQUE,
-    hash 		VARCHAR(80) NOT NULL,
-    salt 		VARCHAR(80) NOT NULL,
-    state		BOOLEAN DEFAULT TRUE,
+    id          UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    email       VARCHAR(50) NOT NULL UNIQUE,
+    nickname    VARCHAR(50) NOT NULL UNIQUE,
+    hash        VARCHAR(80) NOT NULL,
+    salt        VARCHAR(80) NOT NULL,
+    state       BOOLEAN DEFAULT TRUE,
 );
 
 -- Crear tabla de puntajes
