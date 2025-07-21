@@ -12,7 +12,7 @@ Se integran tanto bases de datos relacionales (PostgreSQL) como no relacionales 
 - **DTOs (Data Transfer Objects)**
 - **Fábrica (Factory Pattern)**
 
-- **La estructura de carpetas que se manejan por servicios es la siguiente:**
+### La estructura de carpetas que se manejan por servicios es la siguiente
 ```
 {Nombre_servicio}/
 ├── PingPong_{Nombre_servicio}_Api/
