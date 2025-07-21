@@ -19,10 +19,7 @@ El backend maneja la lógica del juego, la gestión de usuarios, el registro de 
 - **Entity Framework Core y MongoDB Driver**
 - **SOLID y buenas prácticas de diseño**
 - **JWT Authentication**
-
 - **Repositorio**
-- **CQRS (Command Query Responsibility Segregation)**
-- **Mediador (MediatR)**
 - **DTOs (Data Transfer Objects)**
 - **Fábrica (Factory Pattern)**
 
